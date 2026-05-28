@@ -1,0 +1,391 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SS Cricket - Forging Legends Since 1969</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+   
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-red">SS</span> Cricket
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#products" class="nav-link">Bats</a></li>
+                <li><a href="#products" class="nav-link">Kit Bags</a></li>
+                <li><a href="#products" class="nav-link">Balls</a></li>
+                <li><a href="#products" class="nav-link">Protectives</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+  
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="hero-pill">Premium Cricket Equipment</p>
+            <h1 class="hero-title">Forging Legends<br>Since 1969</h1>
+            <p class="hero-sub">Trusted by champions across the globe. Handcrafted with passion, from Meerut to international grounds.</p>
+            <div class="hero-actions">
+                <a href="#products" class="btn btn-red">Shop Now</a>
+                <a href="#about" class="btn btn-ghost">Our Story</a>
+            </div>
+        
+        </div>
+    </section>
+
+  
+    <div class="promo-strip">
+        <div class="container promo-flex">
+            <div class="promo-item">
+                <strong>Free Shipping</strong>
+                <span>On orders above Rs.999</span>
+            </div>
+            <div class="promo-item">
+                <strong>Easy Returns</strong>
+                <span>7-day return policy</span>
+            </div>
+            <div class="promo-item">
+                <strong>Secure Payment</strong>
+                <span>100% safe checkout</span>
+            </div>
+            <div class="promo-item">
+                <strong>Quality Assured</strong>
+                <span>Trusted since 1969</span>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="section white-bg" id="products">
+        <div class="container">
+            <div class="sec-head">
+                <h2>Bestsellers</h2>
+                <p>Our most loved products by cricketers worldwide</p>
+            </div>
+            <div class="card-grid">
+
+                <div class="p-card">
+                    <div class="img-box">
+                        <span class="tag discount">-15%</span>
+                        <img src="images/bat.jpg" alt="SS Ton Player Bat">
+                    </div>
+                    <div class="p-info">
+                        <h3>SS Ton Player Edition</h3>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <div class="price-wrap">
+                            <span class="p-new">Rs.4,250</span>
+                            <span class="p-old">Rs.5,000</span>
+                        </div>
+                        <button class="cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+                      
+                <div class="p-card">
+                    <div class="img-box">
+                        <img src="images/helmet.jpg" alt="SS Cricket Helmet">
+                    </div>
+                    <div class="p-info">
+                        <h3>SS Cricket Helmet Pro</h3>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                        <div class="price-wrap">
+                            <span class="p-new">Rs.2,800</span>
+                            <span class="p-old">Rs.3,200</span>
+                        </div>
+                        <button class="cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="p-card">
+                    <div class="img-box">
+                        <span class="tag discount">-13%</span>
+                        <img src="images/bag.jpg" alt="SS Duffle Kit Bag">
+                    </div>
+                    <div class="p-info">
+                        <h3>SS Duffle Kit Bag</h3>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <div class="price-wrap">
+                            <span class="p-new">Rs.1,700</span>
+                            <span class="p-old">Rs.1,950</span>
+                        </div>
+                        <button class="cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="p-card">
+                    <div class="img-box">
+                        <img src="images/ball.jpg" alt="SS Leather Ball">
+                    </div>
+                    <div class="p-info">
+                        <h3>SS Leather Match Ball</h3>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                        <div class="price-wrap">
+                            <span class="p-new">Rs.550</span>
+                            <span class="p-old">Rs.650</span>
+                        </div>
+                        <button class="cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+                        
+                <div class="p-card">
+                    <div class="img-box">
+                        <span class="tag discount">-10%</span>
+                        <img src="images/gloves.jpg" alt="SS Batting Gloves">
+                    </div>
+                    <div class="p-info">
+                        <h3>SS Batting Gloves</h3>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <div class="price-wrap">
+                            <span class="p-new">Rs.900</span>
+                            <span class="p-old">Rs.1,000</span>
+                        </div>
+                        <button class="cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="p-card">
+                    <div class="img-box">
+                        <img src="images/pads.jpg" alt="SS Batting Pads">
+                    </div>
+                    <div class="p-info">
+                        <h3>SS Batting Pads</h3>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                        <div class="price-wrap">
+                            <span class="p-new">Rs.1,500</span>
+                            <span class="p-old">Rs.1,800</span>
+                        </div>
+                        <button class="cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="p-card">
+                    <div class="img-box">
+                        <span class="tag discount">-12%</span>
+                        <img src="images/shoes.jpg" alt="SS Cricket Shoes">
+                    </div>
+                    <div class="p-info">
+                        <h3>SS Premium Cricket Shoes</h3>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <div class="price-wrap">
+                            <span class="p-new">Rs.2,200</span>
+                            <span class="p-old">Rs.2,500</span>
+                        </div>
+                        <button class="cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="p-card">
+                    <div class="img-box">
+                        <img src="images/Thigh.jpg" alt="SS Thigh Guard">
+                    </div>
+                    <div class="p-info">
+                        <h3>SS Thigh Guard</h3>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9734;&#9734;</div>
+                        <div class="price-wrap">
+                            <span class="p-new">Rs.400</span>
+                            <span class="p-old">Rs.480</span>
+                        </div>
+                        <button class="cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section grey-bg" id="arrivals">
+        <div class="container">
+            <div class="sec-head">
+                <h2>New Arrivals</h2>
+                <p>Fresh from our factory, just for you</p>
+            </div>
+            <div class="card-grid">
+
+                <div class="p-card">
+                    <div class="img-box">
+                        <span class="tag new-tag">New</span>
+                        <img src="images/probat.jpg" alt="SS Pro Player Bat">
+                    </div>
+                    <div class="p-info">
+                        <h3>SS Pro Player Bat</h3>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <div class="price-wrap">
+                            <span class="p-new">Rs.6,500</span>
+                        </div>
+                        <button class="cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="p-card">
+                    <div class="img-box">
+                        <span class="tag new-tag">New</span>
+                        <img src="images/tball.jpg" alt="SS T20 Ball">
+                    </div>
+                    <div class="p-info">
+                        <h3>SS T20 Match Ball</h3>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                        <div class="price-wrap">
+                            <span class="p-new">Rs.750</span>
+                        </div>
+                        <button class="cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="p-card">
+                    <div class="img-box">
+                        <span class="tag new-tag">New</span>
+                        <img src="images/kit.jpg" alt="SS Premium Kit Bag">
+                    </div>
+                    <div class="p-info">
+                        <h3>SS Premium Kit Bag</h3>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <div class="price-wrap">
+                            <span class="p-new">Rs.3,200</span>
+                        </div>
+                        <button class="cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="p-card">
+                    <div class="img-box">
+                        <span class="tag new-tag">New</span>
+                        <img src="images/wkgloves.jpg" alt="SS WK Gloves">
+                    </div>
+                    <div class="p-info">
+                        <h3>SS WK Keeping Gloves</h3>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                        <div class="price-wrap">
+                            <span class="p-new">Rs.1,200</span>
+                        </div>
+                        <button class="cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="p-card">
+                    <div class="img-box">
+                        <span class="tag new-tag">New</span>
+                        <img src="images/jersey.jpg" alt="SS Cricket Jersey">
+                    </div>
+                    <div class="p-info">
+                        <h3>SS Cricket Jersey</h3>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                        <div class="price-wrap">
+                            <span class="p-new">Rs.850</span>
+                        </div>
+                        <button class="cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="p-card">
+                    <div class="img-box">
+                        <span class="tag new-tag">New</span>
+                        <img src="images/elbow.jpg" alt="SS Elbow Guard">
+                    </div>
+                    <div class="p-info">
+                        <h3>SS Elbow Guard</h3>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9734;&#9734;</div>
+                        <div class="price-wrap">
+                            <span class="p-new">Rs.350</span>
+                        </div>
+                        <button class="cart-btn" onclick="addToCart(this)">Add to Cart</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section white-bg" id="about">
+        <div class="container about-layout">
+            <div class="about-img">
+                <img src="images/legacy.jpg" alt="SS Cricket Legacy">
+            </div>
+            <div class="about-text">
+                <p class="sec-pill">Our Story</p>
+                <h2>Crafted With Passion,<br>Trusted by Champions</h2>
+                <p>SS Cricket was founded in 1969 in Meerut, Uttar Pradesh — the cricket equipment capital of the world. For over five decades, we have been handcrafting bats, pads, gloves, and protective gear for cricketers at all levels.</p>
+                <p>From gully cricket to Test matches, SS Cricket has been the trusted companion of players who dream big. Our artisans bring decades of experience to every piece they make.</p>
+                <a href="#products" class="btn btn-red">Explore Products</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="newsletter-section">
+        <div class="container newsletter-wrap">
+            <div class="nl-text">
+                <h2>Stay in the Game</h2>
+                <p>Subscribe for exclusive deals, new arrivals, and cricket tips delivered to your inbox.</p>
+            </div>
+            <form class="nl-form" onsubmit="handleSubscribe(event)">
+                <input type="email" id="emailInput" class="nl-input" placeholder="Enter your email address">
+                <button type="submit" class="btn btn-red">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container footer-grid">
+            <div class="f-col">
+                <h3><span class="logo-red">SS</span> Cricket</h3>
+                <p>Premium cricket equipment since 1969. Made in Meerut, loved worldwide by cricketers at every level.</p>
+                <div class="socials">
+                    <a href="#" class="soc-btn">FB</a>
+                    <a href="#" class="soc-btn">TW</a>
+                    <a href="#" class="soc-btn">IG</a>
+                    <a href="#" class="soc-btn">YT</a>
+                </div>
+            </div>
+            <div class="f-col">
+                <h4>Products</h4>
+                <ul>
+                    <li><a href="#">Cricket Bats</a></li>
+                    <li><a href="#">Kit Bags</a></li>
+                    <li><a href="#">Helmets</a></li>
+                    <li><a href="#">Gloves &amp; Pads</a></li>
+                    <li><a href="#">Balls</a></li>
+                    <li><a href="#">Shoes</a></li>
+                </ul>
+            </div>
+            <div class="f-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Return &amp; Refund</a></li>
+                    <li><a href="#">Order Tracking</a></li>
+                    <li><a href="#">Bulk Enquiry</a></li>
+                    <li><a href="#">Store Locator</a></li>
+                </ul>
+            </div>
+            <div class="f-col">
+                <h4>Contact Us</h4>
+                <p>Meerut, Uttar Pradesh<br>India - 250001</p>
+                <p>info@sscricket.com</p>
+                <p>+91 98765 43210</p>
+                <p>Mon - Sat: 9am to 6pm</p>
+            </div>
+        </div>
+        <div class="footer-bar">
+            <p>&copy; 2024 SS Cricket. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <div class="toast" id="cartToast">&#10003; Added to cart!</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
