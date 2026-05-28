@@ -1,6 +1,6 @@
 # UID-PROJECT
 
-# 🏏 SS Cricket — Official Website
+# 🏏 SS Cricket — Cloned  Website
 
 > **Forging Legends Since 1969** — A premium cricket equipment e-commerce website built with pure HTML, CSS, and JavaScript.
 
