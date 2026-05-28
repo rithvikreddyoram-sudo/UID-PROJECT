@@ -14,7 +14,7 @@ SS Cricket is a fully responsive, multi-section static website for a cricket spo
 
 ## 🌐 Live Demo
 
-> _Deploy on GitHub Pages / Netlify / Vercel and paste your link here._
+
 
 ```
 https://github.com/rithvikreddyoram-sudo/UID-PROJECT
@@ -77,7 +77,7 @@ ss-cricket/
 | CSS3 | Styling, layout, animations, media queries |
 | Vanilla JavaScript | Interactivity and DOM manipulation |
 
-> ⚡ No frameworks. No libraries. No dependencies. Just pure web fundamentals.
+
 
 ---
 
@@ -189,7 +189,7 @@ For the hero background, update this line in `style.css`:
 1. Push the repository to GitHub
 2. Go to **Settings → Pages**
 3. Set source branch to `main` and folder to `/ (root)`
-4. Your site will be live at `https://your-username.github.io/ss-cricket/`
+4. Your site will be live at `[https://your-username.github.io/ss-cricket/](https://github.com/rithvikreddyoram-sudo/UID-PROJECT)`
 
 
 ---
